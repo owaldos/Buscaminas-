@@ -1,0 +1,91 @@
+.table{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    
+}
+
+.covered{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(78, 80, 80);
+    background-color: rgb(108, 108, 111);
+    padding: 0%;
+    color: rgb(108, 108, 111);  
+    text-align: center;
+    
+}
+
+.open{
+    background-color: rgb(211, 211, 220);
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(78, 80, 80);
+    padding: 0%;
+    color: rgb(0, 0, 0);  
+    text-align: center;
+}
+
+.mines{
+    background-color: rgba(226, 116, 14, 0.844);
+    background-image: url('./bombas.png');
+    background-size: 100% 100%;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(78, 80, 80);
+    padding: 0%;
+    color: rgb(0, 0, 0);  
+    text-align: center;
+}
+
+.flag{
+    background-color: rgba(0, 0, 0, 0.844);
+    background-image: url('./bandera.png');
+    background-size: 100% 100%;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(78, 80, 80);
+    padding: 0%;
+    color: rgb(0, 0, 0);  
+    text-align: center;
+    
+}
+
+
+.explosion{
+    background-color: rgb(43, 1, 1);
+    background-image: url('./explosion.png');
+    background-size: 100% 100%;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(78, 80, 80);
+    padding: 0%;
+    color: rgb(0, 0, 0);  
+    text-align: center;
+    
+    
+    
+}
+.audio{
+    
+}
+
+.chronometer{
+    height: 50px;
+
+}
+
+label{
+    display: block;
+
+}
+h1{
+    padding: 0px;
+    margin: 0%;
+}
